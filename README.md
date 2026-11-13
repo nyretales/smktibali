@@ -21,7 +21,7 @@ Untuk pengembangan sambil mengubah class Tailwind, jalankan `npm run dev`.
 - Import repository proyek ke Vercel.
 - Framework Preset: **Other**.
 - Build Command: `npm run build`.
-- Output Directory: `.` (folder proyek ini).
+- Output Directory: `dist` (sudah diatur otomatis melalui `vercel.json`).
 - Pastikan `index.html`, `assets/`, `src/`, dan `package.json` berada di root repository.
 
 CSS production yang sudah dibangun tersedia di `assets/css/tailwind.css`, sehingga website tetap dapat dibuka langsung sebagai website statis. Jalankan build lagi setelah mengubah utility classes.
