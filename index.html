@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#c8c9e2">
+<title>SMK TI Bali Global Singaraja — Company Profile</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/tailwind.css">
+<link rel="stylesheet" href="assets/css/claymorphism.css">
+</head>
+<body class="min-h-screen bg-[#071b25] font-sans text-[#f7f8f4] antialiased">
+<section class="relative isolate min-h-[760px] h-[100svh] overflow-hidden md:min-h-[700px] lg:min-h-[740px] xl:min-h-[780px] hero" id="beranda">
+ <div class="hero-bg" id="heroBg"></div><div class="topline"><span id="progress"></span></div>
+ <header id="header" class="absolute inset-x-0 top-0 z-30 flex items-center justify-between px-[5%] py-5 md:px-[5.5%] md:py-7"><a class="brand" href="#beranda"><span class="brand-mark">TI</span><span>SMK TI BALI GLOBAL<br><small style="font-weight:500;opacity:.65;letter-spacing:.18em">SINGARAJA</small></span></a>
+ <nav class="hidden items-center gap-4 text-[10px] uppercase tracking-[.12em] text-[#e4ece9] md:flex lg:gap-7"><a href="#profil">Profil</a><a href="#kompetensi">Kompetensi</a><a href="#fasilitas">Fasilitas</a><a href="#kegiatan">Kegiatan</a><a href="#kontak">Kontak</a></nav><button class="menu flex rounded-full border border-white/30 px-3 py-2 text-xs md:hidden" id="menu">MENU</button></header>
+ <div class="absolute left-[7%] top-[17%] z-10 w-[86%] max-w-[560px] md:left-[6%] md:top-[17%] md:w-[43%] lg:top-[16%] xl:top-[17%] hero-content" id="heroContent"><div class="mb-4 text-[9px] font-bold uppercase tracking-[.28em] text-[#c8ef65] md:text-[10px] kicker" id="kicker">Information Technology & Business School</div><h1 id="title" class="mb-5 max-w-[560px] text-[clamp(2.8rem,10vw,4.4rem)] font-extrabold uppercase leading-[.98] tracking-[-.065em] md:text-[clamp(3.3rem,5.2vw,4.7rem)] xl:text-[clamp(3.5rem,5vw,4.6rem)]">Belajar hari ini,<br>memimpin esok.</h1><p class="mb-6 max-w-[450px] text-[12px] leading-[1.7] text-[#d6e0dc] md:text-[14px] desc" id="desc">Membangun generasi berkarakter, berkompetensi, unggul, dan berjiwa entrepreneur melalui pendidikan teknologi yang kreatif dan relevan.</p><div class="flex flex-wrap items-center gap-4 md:gap-5 actions"><a class="inline-flex items-center gap-4 rounded-sm bg-[#c8ef65] px-5 py-3.5 text-[11px] font-extrabold uppercase tracking-[.08em] text-[#10252b] primary" href="#profil">Jelajahi sekolah <span>↗</span></a><a class="border-b border-white/50 pb-2 text-[10px] uppercase tracking-[.12em] textlink" href="#kompetensi">Program keahlian</a></div></div>
+ <div class="absolute bottom-10 left-[7%] z-20 font-display text-xs tracking-[.18em] text-white/70 md:bottom-9 md:left-[6%] slide-count"><b id="num">01</b> / 05</div><div class="absolute right-[2.2%] top-1/2 z-20 hidden [writing-mode:vertical-rl] text-[9px] tracking-[.25em] text-white/60 md:block scrollhint">SCROLL TO EXPLORE ↓</div>
+ <div class="absolute bottom-[92px] left-[7%] right-[7%] z-20 flex items-end justify-center gap-2 md:bottom-[66px] md:left-auto md:right-[4%] md:justify-end md:gap-2 lg:right-[4.5%] xl:right-[5.5%] gallery" id="gallery">
+ <div class="card active rounded-md shadow-xl" data-index="0"><img src="assets/learning-1.png"><div class="card-label">Pendidikan<br>Teknologi</div></div>
+ <div class="card rounded-md shadow-xl" data-index="1"><img src="assets/character-1.png"><div class="card-label">Karakter<br>& Disiplin</div></div>
+ <div class="card rounded-md shadow-xl" data-index="2"><img src="assets/competency-1.png"><div class="card-label">Kompetensi<br>Digital</div></div>
+ <div class="card rounded-md shadow-xl" data-index="3"><img src="assets/achievement-3.png"><div class="card-label">Prestasi<br>Siswa</div></div>
+ <div class="card rounded-md shadow-xl" data-index="4"><img src="assets/extra-3.png"><div class="card-label">Kreativitas<br>& Bakat</div></div>
+ </div>
+ <div class="absolute bottom-[38px] right-[7%] z-30 flex gap-2 md:bottom-5 md:right-[4.5%] controls"><button id="prev" aria-label="Sebelumnya">‹</button><button id="next" aria-label="Berikutnya">›</button></div>
+</section>
+<section class="bg-[#f4f6f0] px-[7%] py-[72px] text-[#142a30] md:px-[8%] md:py-[90px] lg:py-[105px] section" id="profil"><div class="eyebrow">Who we are · Established since 2007</div><h2>Sekolah teknologi<br>yang tumbuh bersama alam.</h2><p class="intro">SMK TI Bali Global Singaraja adalah lembaga pendidikan yang berdedikasi mengembangkan potensi siswa dalam bidang teknologi informasi. Berlokasi di Banyuning, dengan lingkungan hijau yang nyaman, kami membentuk lulusan terampil, kreatif, bertanggung jawab, dan siap menghadapi tantangan masa depan.</p><div class="mt-10 grid grid-cols-1 gap-px border border-[#d6ded5] bg-[#d6ded5] sm:grid-cols-2 lg:grid-cols-4 stats" id="schoolStats">
+<div class="stat"><strong class="count-up" data-target="247">0</strong><span>Siswa dari berbagai daerah</span></div>
+<div class="stat"><strong class="count-up" data-target="24">0</strong><span>Tenaga pendidik</span></div>
+<div class="stat"><strong class="count-up" data-target="1" data-suffix=" Ha">0</strong><span>Luas area sekolah</span></div>
+<div class="stat"><strong class="count-up" data-target="96" data-suffix="%">0</strong><span>Lulusan terserap dunia kerja dalam 3 bulan</span></div>
+</div></section>
+<section class="bg-[#0a2029] px-[7%] py-[72px] text-white md:px-[8%] md:py-[90px] lg:py-[105px] section programs" id="kompetensi"><div class="eyebrow">Learn · Create · Innovate</div><h2>Kompetensi untuk<br>masa depan digital.</h2><p class="intro" style="color:#b9c8c3">Pembelajaran berorientasi pada kompetensi, pengalaman praktik, kreativitas, dan kesiapan memasuki dunia kerja maupun berwirausaha.</p><div class="mt-10 grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-4 program-grid">
+<div class="program"><small>01 / NETWORK</small><h3>Teknik Komputer & Jaringan</h3><p>IT support, perangkat komputer, dan infrastruktur jaringan.</p></div>
+<div class="program"><small>02 / DESIGN</small><h3>Desain Komunikasi Visual</h3><p>Desain grafis, fotografi, videografi, dan konten kreatif.</p></div>
+<div class="program"><small>03 / SOFTWARE</small><h3>Rekayasa Perangkat Lunak</h3><p>Pengembangan aplikasi, website, dan solusi digital.</p></div>
+<div class="program"><small>04 / BUSINESS</small><h3>Akuntansi & Keuangan</h3><p>Administrasi keuangan, pengelolaan usaha, dan bisnis.</p></div>
+</div></section>
+<section class="bg-[#f4f6f0] px-[7%] py-[72px] text-[#142a30] md:px-[8%] md:py-[90px] lg:py-[105px] section" id="fasilitas"><div class="eyebrow">Our environment</div><h2>Ruang untuk tumbuh<br>dan bereksplorasi.</h2><p class="intro">Lingkungan belajar hijau dan nyaman, ruang kelas, laboratorium komputer ber-AC, aula, internet fiber optic, perpustakaan, serta fasilitas olahraga untuk mendukung pengalaman belajar yang menyeluruh.</p><div class="photo-grid mt-10 grid grid-cols-2 gap-3 md:grid-cols-3"><img src="assets/character-4.png" alt="Lingkungan sekolah"><img src="assets/learning-1.png" alt="Laboratorium komputer"><img src="assets/itsupport-1.png" alt="Praktik siswa"><img src="assets/competency-2.png" alt="Kegiatan keterampilan"><img src="assets/character-1.png" alt="Aktivitas sekolah"></div></section>
+<section class="bg-[#0a2029] px-[7%] py-[72px] text-white md:px-[8%] md:py-[90px] lg:py-[105px] section programs" id="kegiatan"><div class="eyebrow">Beyond classroom</div><h2>Karakter, prestasi,<br>dan kreativitas.</h2><p class="intro" style="color:#b9c8c3">Siswa mengembangkan minat dan bakat melalui kegiatan ekstrakurikuler, kompetisi, seni budaya, olahraga, serta proyek nyata bersama unit usaha sekolah.</p><div class="photo-grid mt-10 grid grid-cols-2 gap-3 md:grid-cols-3"><img src="assets/achievement-1.png" alt="Prestasi siswa"><img src="assets/extra-4.png" alt="Olahraga"><img src="assets/extra-1.png" alt="Kegiatan kreatif"><img src="assets/achievement-2.png" alt="Prestasi seni"><img src="assets/character-3.png" alt="Kegiatan karakter"></div></section>
+<footer id="kontak" class="flex flex-col justify-between gap-6 bg-[#06151c] px-[7%] py-10 text-xs leading-relaxed text-[#b6c5c0] md:flex-row md:items-center md:px-[8%]"><div><strong>SMK TI BALI GLOBAL SINGARAJA</strong><br>Information Technology and Business School</div><div>Jl. Pulau Timor No.24, Banyuning – Singaraja, Buleleng, Bali<br>Telp. 0362 25364 · smkti.bg.singaraja@gmail.com</div><div>© 2026 SMK TI Bali Global Singaraja</div></footer>
+<script>
+const slides=[
+ {img:'assets/learning-1.png',tag:'Information Technology & Business School',title:'Belajar hari ini,<br>memimpin esok.',desc:'Membangun generasi berkarakter, berkompetensi, unggul, dan berjiwa entrepreneur melalui pendidikan teknologi yang kreatif dan relevan.'},
+ {img:'assets/character-1.png',tag:'Character building',title:'Karakter kuat,<br>masa depan hebat.',desc:'Menumbuhkan disiplin, kepemimpinan, kolaborasi, dan tanggung jawab sebagai fondasi keberhasilan setiap siswa.'},
+ {img:'assets/competency-1.png',tag:'Practice · Create · Innovate',title:'Kompetensi nyata<br>untuk dunia kerja.',desc:'Belajar melalui praktik langsung, proyek kreatif, dan pengalaman yang menghubungkan pembelajaran dengan kebutuhan industri.'},
+ {img:'assets/achievement-3.png',tag:'Student achievement',title:'Berani berkarya,<br>siap berprestasi.',desc:'Mendorong siswa untuk terus berkembang, berkompetisi, dan menghasilkan karya yang membanggakan.'},
+ {img:'assets/extra-3.png',tag:'Creativity & community',title:'Bakat berkembang,<br>potensi bersinar.',desc:'Ruang bagi siswa untuk mengeksplorasi minat, seni, budaya, olahraga, dan kreativitas di luar ruang kelas.'}
+];
+let current=0;const bg=document.getElementById('heroBg');
+function show(i){current=(i+slides.length)%slides.length;const s=slides[current];bg.style.opacity=0;setTimeout(()=>{bg.style.backgroundImage=`url("${s.img}")`;bg.style.opacity=1;},180);
+document.getElementById('kicker').textContent=s.tag;document.getElementById('title').innerHTML=s.title;document.getElementById('desc').textContent=s.desc;document.getElementById('num').textContent=String(current+1).padStart(2,'0');document.getElementById('progress').style.width=((current+1)/slides.length*100)+'%';
+document.querySelectorAll('.card').forEach((c,n)=>c.classList.toggle('active',n===current));}
+document.getElementById('gallery').addEventListener('click',e=>{let c=e.target.closest('.card');if(c)show(+c.dataset.index)});
+document.getElementById('next').onclick=()=>show(current+1);document.getElementById('prev').onclick=()=>show(current-1);
+document.getElementById('menu').onclick=()=>document.getElementById('header').classList.toggle('nav-open');
+
+// Angka statistik mulai menghitung saat bagian statistik masuk ke viewport.
+const statCounters=[...document.querySelectorAll('.count-up')];
+let statsPlayed=false;
+function runCounters(){
+ if(statsPlayed)return; statsPlayed=true;
+ statCounters.forEach(el=>{
+  const target=Number(el.dataset.target)||0, suffix=el.dataset.suffix||'';
+  const duration=1700, start=performance.now();
+  function tick(now){
+   const t=Math.min((now-start)/duration,1), eased=1-Math.pow(1-t,3);
+   el.textContent=Math.round(target*eased).toLocaleString('id-ID')+suffix;
+   if(t<1)requestAnimationFrame(tick);
+  }
+  requestAnimationFrame(tick);
+ });
+}
+const statsSection=document.getElementById('schoolStats');
+if(statsSection && 'IntersectionObserver' in window){
+ const statsObserver=new IntersectionObserver(entries=>{
+  if(entries.some(entry=>entry.isIntersecting)){runCounters();statsObserver.disconnect();}
+ },{threshold:.25});
+ statsObserver.observe(statsSection);
+}else{runCounters();}
+
+// Kartu membesar lembut saat pointer atau jari berada di atasnya.
+const heroGallery=document.getElementById('gallery');
+function setHoveredCard(x,y){
+ const el=document.elementFromPoint(x,y);
+ const card=el&&el.closest?el.closest('.card'):null;
+ heroGallery.querySelectorAll('.card.is-hovered').forEach(c=>{if(c!==card)c.classList.remove('is-hovered')});
+ if(card&&heroGallery.contains(card))card.classList.add('is-hovered');
+}
+heroGallery.addEventListener('pointermove',e=>setHoveredCard(e.clientX,e.clientY),{passive:true});
+heroGallery.addEventListener('pointerleave',()=>heroGallery.querySelectorAll('.card.is-hovered').forEach(c=>c.classList.remove('is-hovered')));
+heroGallery.addEventListener('pointerup',()=>setTimeout(()=>heroGallery.querySelectorAll('.card.is-hovered').forEach(c=>c.classList.remove('is-hovered')),180));
+show(0);
+let startX=0;document.querySelector('.hero').addEventListener('touchstart',e=>startX=e.touches[0].clientX,{passive:true});
+document.querySelector('.hero').addEventListener('touchend',e=>{let dx=e.changedTouches[0].clientX-startX;if(Math.abs(dx)>55)show(current+(dx<0?1:-1));},{passive:true});
+</script></body></html>
